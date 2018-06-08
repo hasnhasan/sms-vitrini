@@ -1,0 +1,35 @@
+{
+    "name": "hasnhasan/sms-vitrini",
+    "description": "Sends SMS using SMSVITRINI API",
+    "homepage": "https://github.com/laravel-notification-channels/sms-vitrini",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasan ÖZSEZGİn",
+            "email": "hasan.ozsezgin@gmail.com",
+            "homepage": "http://www.hasanozsezgin.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/notifications": "^5.3",
+        "illuminate/queue": "^5.1|^5.2|^5.3",
+        "illuminate/support": "^5.1|^5.2|^5.3"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": ">=6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "HasnHasan\\SmsVitrini\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
